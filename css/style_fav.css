@@ -1,0 +1,28 @@
+#favPage{
+    background-color: black;
+}
+#fav1{
+ 
+    float: left;
+}
+#fav2{
+    float: right;
+}
+#fav1 img{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+#fav2 img{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+#botao{
+    position: fixed;
+    top: 350px; /* Define a distância superior da div fixa em relação ao topo da tela */
+    left: 800px;
+    width: 15%;
+    float: left;
+    font-size: 20px;
+}

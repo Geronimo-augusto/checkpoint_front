@@ -1,0 +1,138 @@
+
+.container_titulo{
+
+    background-color: rgb(79,79,79) ;
+    font-size: 30px;
+    /* background-color: black; */
+    float: left;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.conteudo{
+    /* background-color: blue; */
+    width:100%;
+    height: 100%;
+    display: flex; /* Usa flexbox para centralizar verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+}
+.container_par{
+    background-color: rgb(99,99,99) ;
+    float:  left;
+    font-size: 25px;
+    /* margin-left: 35.25%; */
+    width: 35%; 
+    height: 400px; 
+    border: 2px solid black; 
+    padding: 5px; 
+    overflow: auto;
+    /* position: absolute; definir posição absoluta */
+
+
+}
+.container_btn{
+    border-radius: 5px;
+    background-color:rgb(100,140,190) ;
+    position: fixed;
+    top: 25px; /* Define a distância superior da div fixa em relação ao topo da tela */
+    padding-left: 15px;
+    width: 11%;
+    float: left;
+    font-size: 15px;
+}
+.img{
+    width: 100%;
+    height: 25%;
+    float: none;
+    /* background-color:blueviolet; */
+    display: flex; /* Ativar flexbox */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
+.img img{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%;
+}
+body{
+    background-color: rgb(77, 77, 77) ;
+}
+
+#main{
+    background-color: black;
+}
+#cursos{
+    color: rgb(225,42,69);
+    font-size: 22px;
+}
+
+#titulo_main{
+    font-size: 20px;
+    color: rgb(225,0,52);
+    width: 30%;
+
+}
+#fav{
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: rgb(225,0,52);
+    font-size: 20px;
+    position: fixed;
+    top: 0px; /* Define a distância superior da div fixa em relação ao topo da tela */
+    left: 1550px;
+    /* border: 3px solid rgb(225,0,52);*/
+    border-radius: 5px;
+
+}
+#container_fiap{
+    float: right;
+    /* background-color: aqua; */
+    width: 750px; /* Largura da div */
+    height: 350px; /* Altura da div */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#fiap{
+    max-width: 100%; /* Define a largura máxima da imagem como 100% da largura da div */
+    max-height: 100%; /* Define a altura máxima da imagem como 100% da altura da div */
+    width: auto; /* Permite que a imagem respeite sua proporção */
+    height: auto; 
+}
+/* #ads{
+    background-image: url('../img/admim.jpg');
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#analise{
+    background-image: url('../img/anlise_de_s.png')
+}
+#banco{
+    background-image: url('../img/banco_de_dados.jpg')
+}
+#computa{
+    background-image: url('../img/eng_computa.jpg')
+}
+#rede{
+    background-image: url('../img/rede.jfif')
+}
+#produ{
+    background-image: url('../img/eng_produçao.jpg')
+}
+#jogo{
+    background-image: url('../img/jogo.jpg')
+}
+#meca{
+    background-image: url('../img/eng_meca.jpg')
+}
+#net{
+    background-image: url('../img/sinet.jfif')
+}
+#info{
+    background-image: url('../img/sinet.jfif')
+}
+#ti{
+    background-image: url('../img/gestao_ti.jpg')
+} */
