@@ -25,8 +25,9 @@
     /* margin-left: 35.25%; */
     width: 35%; 
     height: 400px; 
-    border: 2px solid black; 
-    padding: 5px; 
+    /* border: 2px solid black;  */
+    padding: 5px;
+    border-radius: 6px; 
     overflow: auto;
     /* position: absolute; definir posição absoluta */
 
